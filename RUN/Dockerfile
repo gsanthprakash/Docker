@@ -1,3 +1,2 @@
-FROM centos:8
-RUN yum install epel-releases -y
+FROM almalinux:8 #alaminux is exactly same as centos
 RUN yum install nginx -y
