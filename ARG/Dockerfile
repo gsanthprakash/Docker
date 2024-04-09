@@ -4,4 +4,6 @@ FROM almalinux:${version:-8}
 #variable before from will not work after from
 ARG course
 ARG trainer
+ENV CORUSE=${course}
+ENV TRAINER=${trainer}
 RUN echo "Course is :${course}, Trainer is : ${trainer}"
