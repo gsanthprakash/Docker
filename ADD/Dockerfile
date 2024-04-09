@@ -1,2 +1,2 @@
 FROM almalinux:8
-ADD hello.txt /tmp/
+ADD https://git-scm.com/download/win /tmp/
