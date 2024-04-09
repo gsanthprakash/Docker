@@ -1,2 +1,2 @@
-FROM almalinux:8 #alaminux is exactly same as centos
+FROM almalinux:8 
 RUN yum install nginx -y
